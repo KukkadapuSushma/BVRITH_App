@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/c"
+                    android:title="About BVRITH"
+                    />
+
+                <item
+            android:id="@+id/action_dept"
+            android:title="Departments"
+             />
+        <item
+            android:id="@+id/custom"
+
+            android:title="Map" />
+
+        <item
+            android:id="@+id/contentPanel"
+
+            android:title="Facilities" />
+                <item
+                    android:id="@+id/action_divider"
+
+                    android:title="Placements" />
+                <item
+                    android:id="@+id/content_main"
+
+                    android:title="Website" />
+    </group>
+
+
+
+</menu>

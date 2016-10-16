@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:background="@drawable/bg"
+        tools:context="com.bvrit.bvritcalllog.sves"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="SVES"
+            android:id="@+id/textView18"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#8e055b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView8"
+            android:src="@drawable/sves"
+            android:layout_below="@+id/textView18"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SRI VISHNU EDUCATIONAL SOCIETY has stood first among equals because of its quest and hard work to develop as an educational society which stands apart.  Our founder chairman Late. PADMA BHUSHAN Dr. B. V. RAJU, through his excellent vision and foresight established many educational institutions. These institutions are playing a vital role in moulding and shaping the future of thousands of students year after year. In addition, many organizations with a motive to serve society were also started. On one hand, he started the construction business involving supply of raw material and on the other hand he started society development programmes. To give shape to his ideas, he started the Dr. B.V. Raju Foundation to help the needy people. Dr.B.V. Raju Foundation has also distributed house sites to poor people."
+            android:id="@+id/textView20"
+            android:layout_below="@+id/imageView8"
+
+            android:textAlignment="gravity"
+            android:textIsSelectable="true"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dr. B.V. Raju Foundation and Sri Vishnu Educational Society have constructed two high schools, three elementary schools, four mahila mandals, one kalyanamandapam and veterinary hospitals in several villages without any monetary help from the government or private sources.   "
+            android:id="@+id/textView21"
+            android:layout_below="@+id/textView20"
+            android:textColor="#000000"
+            android:textAlignment="gravity"
+            android:textIsSelectable="true"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>

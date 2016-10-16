@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_department"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="com.bvrit.bvritcalllog.DepartmentActivity"
+    android:weightSum="1">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+
+              <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="135dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/ece"
+                  android:onClick="eceList"/>
+
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_width="135dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/eee"
+                    android:onClick="eeeList"
+                    />
+                <ImageView
+                    android:layout_marginTop="190dp"
+                    android:layout_width="135dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/cse"
+                    android:onClick="cseList"
+                    />
+                <ImageView
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="190dp"
+                    android:layout_width="135dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/it"
+                    android:onClick="itList"
+                    />
+
+                <ImageView
+                    android:layout_marginTop="350dp"
+                    android:layout_width="135dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/basic1"
+                    android:onClick="basichList"
+                    />
+
+          </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

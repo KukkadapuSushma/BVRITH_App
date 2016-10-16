@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bvrit.bvritcalllog">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".DepartmentActivity" />
+        <activity android:name=".CseActivity" />
+        <activity android:name=".facilities" />
+        <activity android:name=".placements" />
+        <activity android:name=".aboutBVRITH" />
+        <activity android:name=".mission" />
+        <activity android:name=".vision" />
+        <activity android:name=".founder" />
+        <activity android:name=".chairman" />
+        <activity android:name=".principal" />
+        <activity android:name=".sves" />
+        <activity android:name=".aboutfacilities" />
+        <activity android:name=".transport" />
+        <activity android:name=".wise" />
+        <activity android:name=".canteen" />
+        <activity android:name=".atl" />
+        <activity android:name=".hostels" />
+        <activity android:name=".incubationcenter"></activity>
+    </application>
+
+</manifest>
