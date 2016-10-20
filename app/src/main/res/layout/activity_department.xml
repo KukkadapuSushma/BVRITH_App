@@ -61,7 +61,7 @@
                     android:layout_width="135dp"
                     android:layout_height="110dp"
                     android:src="@drawable/basic1"
-                    android:onClick="basichList"
+                    android:onClick="basic1List"
                     />
 
           </RelativeLayout>

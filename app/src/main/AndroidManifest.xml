@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bvrit.bvritcalllog">
 
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -25,7 +24,6 @@
         <activity android:name=".DepartmentActivity" />
         <activity android:name=".CseActivity" />
         <activity android:name=".facilities" />
-        <activity android:name=".placements" />
         <activity android:name=".aboutBVRITH" />
         <activity android:name=".mission" />
         <activity android:name=".vision" />
@@ -39,7 +37,11 @@
         <activity android:name=".canteen" />
         <activity android:name=".atl" />
         <activity android:name=".hostels" />
-        <activity android:name=".incubationcenter"></activity>
+        <activity android:name=".incubationcenter" />
+        <activity android:name=".EceActivity" />
+        <activity android:name=".EeeActivity" />
+        <activity android:name=".ItActivity" />
+        <activity android:name=".BshActivity"></activity>
     </application>
 
 </manifest>

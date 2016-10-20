@@ -3,15 +3,20 @@ package com.bvrit.bvritcalllog;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class aboutBVRITH extends Activity {
+public class aboutBVRITH extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_bvrith);
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
         Button Button01 = (Button)findViewById(R.id.Button01);
         Button Button03 = (Button)findViewById(R.id.Button03);
         Button Button05 = (Button)findViewById(R.id.Button05);
@@ -61,4 +66,17 @@ public class aboutBVRITH extends Activity {
             }
         });
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
 }

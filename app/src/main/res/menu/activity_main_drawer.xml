@@ -20,14 +20,11 @@
             android:id="@+id/contentPanel"
 
             android:title="Facilities" />
-                <item
-                    android:id="@+id/action_divider"
 
-                    android:title="Placements" />
                 <item
                     android:id="@+id/content_main"
 
-                    android:title="Website" />
+                    android:title="College info" />
     </group>
 
 

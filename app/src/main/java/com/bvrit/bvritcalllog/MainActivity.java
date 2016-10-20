@@ -90,10 +90,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
 
-        } else if (id == R.id.action_divider) {
-            Intent i = new Intent(this, placements.class);
-            startActivity(i);
-        } else if (id == R.id.content_main) {
+        }
+         else if (id == R.id.content_main) {
             Uri uri = Uri.parse("http://www.bvrithyderabad.edu.in");
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
