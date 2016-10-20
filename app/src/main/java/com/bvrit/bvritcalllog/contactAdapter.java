@@ -6,12 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
 
 /**
- * Created by welcome on 13-10-2016.
+ * Created by sushma on 13-10-2016.
  */
 
 public class contactAdapter extends ArrayAdapter<contact> {
@@ -34,6 +35,9 @@ public class contactAdapter extends ArrayAdapter<contact> {
 
         TextView contactNumber = (TextView) returnView.findViewById(R.id.contact_number);
         contactNumber.setText(currentContact.getNumber());
+
+        ImageView contactImage = (ImageView) returnView.findViewById(R.id.contact_icon);
+        contactImage.setImageResource(currentContact.getImageRes());
 
         return returnView;
     }
