@@ -9,10 +9,13 @@ import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.bvrit.bvritcalllog.adapter.contactAdapter;
+import com.bvrit.bvritcalllog.model.contact;
 
 import java.util.ArrayList;
 
@@ -24,6 +27,9 @@ public class ItActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_it);
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
         contacts.add(new contact("S.L.ARUNA RAO,HOD", "9553605898"));
@@ -37,6 +43,9 @@ public class ItActivity extends AppCompatActivity {
         contacts.add(new contact("P S LATHA KALYAMPUDI", "8985036362"));
         contacts.add(new contact("S. RAMA DEVI", "9866511230"));
         contacts.add(new contact("SANGEETHA DHARMAPURI", "9966581857"));
+        contacts.add(new contact("M. PARICHAY", "9000397776"));
+        contacts.add(new contact("SAILAJA DANTULURI", "9000949905"));
+        contacts.add(new contact("TALLURI PRAVEEN KUMAR", "9492425554"));
 
 
         //this code will be private to current activity.. means scope.. and those class nad layout can be reused..
@@ -82,5 +91,15 @@ public class ItActivity extends AppCompatActivity {
             }
         });
 
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

@@ -20,7 +20,8 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="69dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
 
 
 
@@ -37,10 +38,11 @@
                 android:layout_height="wrap_content"
                 android:text="BVRIT Hyderabad"
                 android:textColor="@color/colorAccent"
-                android:textSize="29sp"
-                android:paddingLeft="35dp"
+                android:textSize="35sp"
+                android:paddingLeft="18dp"
                 android:textStyle="bold"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,23 +65,14 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="204dp"
         android:paddingTop="50dp"
         android:src="@drawable/bvritclg"
         android:id="@+id/imageView3"
-        android:scaleType="centerCrop" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Excellence is the hallmark of Sri Vishnu Educational Society, Excellence, which will deliver professional manpower to the industry and the nation at large. WE at BVRITH are producing engineers who will create a New World! "
-        android:id="@+id/textView28"
-        android:layout_below="@+id/imageView11"
-        android:textColor="#8e055b"
-        android:textSize="19dp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        />
+        android:scaleType="centerCrop"
+        android:layout_weight="0.24"
+        android:layout_marginTop="45dp"/>
+
 
 
 </LinearLayout>

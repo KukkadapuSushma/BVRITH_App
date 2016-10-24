@@ -44,11 +44,11 @@
             android:id="@+id/textView15"
             android:layout_below="@+id/imageView6"
             android:textColor="#000000"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:textSize="18dp"
             android:textIsSelectable="true"
             android:text="             Sri K.V. Vishnu Raju is the grandson of the Founder Chairman, Padmabhushan Dr. B.V. Raju. He carries the vision of his grandfather. With the demise of his grandfather, the Founder Chairman, he became the Chairman of Dr. B. V. Raju Foundation and Sri Vishnu Educational Society in June 2002. Heis also one of the Board of Directors for Vennar Ceramics Ltd., Raasi Finance Investment Ltd., Sai Aditya Hotels and Supermarkets Pvt. Ltd. Hyderabad., MFL Net Services Pvt. Ltd., Elico Ltd., and Anjani Bakery Products Ltd.
-             Sri K.V. Vishnu Raju, after serving for M/s. E.T. Dupont De Nemours, USA, returned to India in 1992 and served as Executive Director for M/s. Raasi Cement Ltd, Hyderabad from 1992-1995. The following year, he was promoted as Joint Managing Director of M/s. Raasi Cement Ltd. He is the Managing Director of M/s. Anjani Portalnd Cement Ltd., Hyderabad from December 1999."
+                     Sri K.V. Vishnu Raju, after serving for M/s. E.T. Dupont De Nemours, USA, returned to India in 1992 and served as Executive Director for M/s. Raasi Cement Ltd, Hyderabad from 1992-1995. The following year, he was promoted as Joint Managing Director of M/s. Raasi Cement Ltd. He is the Managing Director of M/s. Anjani Portalnd Cement Ltd., Hyderabad from December 1999."
             android:textAlignment="inherit" />
 
 

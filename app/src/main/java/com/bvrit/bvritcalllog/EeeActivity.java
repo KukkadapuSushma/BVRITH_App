@@ -9,10 +9,13 @@ import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.bvrit.bvritcalllog.adapter.contactAdapter;
+import com.bvrit.bvritcalllog.model.contact;
 
 import java.util.ArrayList;
 
@@ -24,9 +27,12 @@ public class EeeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eee);
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
-        contacts.add(new contact("CHAVA SUNIL KUMAR", "9440545949"));
+        contacts.add(new contact("CHAVA SUNIL KUMAR,HOD", "9440545949"));
         contacts.add(new contact("BABITA GUPTA", "9640603999"));
         contacts.add(new contact("BHAVYA.K", "9573836511"));
         contacts.add(new contact("GURUSWAMY REVANA", "9985271464"));
@@ -37,6 +43,9 @@ public class EeeActivity extends AppCompatActivity {
         contacts.add(new contact("SUBHASHITHA.P", "9985214198"));
         contacts.add(new contact("SUJATHA.B", "8142691516"));
         contacts.add(new contact("VENKAT RAMANA REDDY.A", "8149165846"));
+        contacts.add(new contact("K SANTHOSH KUMAR", "9866599494"));
+        contacts.add(new contact("P NARSIMHA RAMULU", "9949075686"));
+        contacts.add(new contact("P.L.SRINIVASRAO", "9912916156"));
 
         //this code will be private to current activity.. means scope.. and those class nad layout can be reused..
         //if any change.. then only u have to create new.. otherwise no need
@@ -81,5 +90,15 @@ public class EeeActivity extends AppCompatActivity {
             }
         });
 
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

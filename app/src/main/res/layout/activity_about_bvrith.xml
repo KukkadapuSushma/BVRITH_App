@@ -17,27 +17,29 @@
             android:id="@+id/TextView01"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BVRITH"
+            android:text=""
             android:textAlignment="center"
-            android:textColor="#8a2a7f"
+            android:textColor="#028408"
             android:textSize="35sp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="0.72"
             android:orientation="horizontal"
-            android:paddingBottom="10dp"
-            android:paddingTop="15dp">
+            android:paddingBottom="1dp"
+            android:paddingTop="20dp">
 
             <Button
                 android:id="@+id/Button01"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="80dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/round_shape"
+
+
+                android:background="@drawable/buttonshape"
                 android:text="MISSION"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -45,30 +47,29 @@
             <Button
                 android:id="@+id/Button02"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="80dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/round_shape"
+                android:background="@drawable/buttonshape"
                 android:text="SVES"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="0.70"
             android:orientation="horizontal"
-            android:paddingBottom="10dp"
-            android:paddingTop="15dp">
+            android:paddingBottom="19dp"
+            android:paddingTop="10dp">
 
-            <Button
+        <Button
                 android:id="@+id/Button03"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="80dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/round_shape"
+                android:background="@drawable/buttonshape"
                 android:text="VISION"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -76,10 +77,10 @@
             <Button
                 android:id="@+id/Button05"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="80dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/round_shape"
+                android:background="@drawable/buttonshape"
                 android:text="FOUNDER"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -87,19 +88,19 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingBottom="10dp"
-            android:paddingTop="15dp">
+            android:paddingBottom="19dp"
+            android:paddingTop="12dp"
+            android:layout_weight="0.48">
 
             <Button
                 android:id="@+id/Button04"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="80dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/round_shape"
+                android:background="@drawable/buttonshape"
                 android:text="CHAIRMAN"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -107,10 +108,11 @@
             <Button
                 android:id="@+id/Button06"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="80dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/round_shape"
+
+                android:background="@drawable/buttonshape"
                 android:text="PRINCIPAL"
                 android:textSize="20sp"
                 android:textStyle="bold" />

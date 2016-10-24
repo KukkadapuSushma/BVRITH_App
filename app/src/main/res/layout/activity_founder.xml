@@ -19,7 +19,7 @@
             android:textStyle="bold"
             android:id="@+id/textView10"
             android:textAlignment="center"
-            android:textColor="#8e055b"
+            android:textColor="#295c7b"
             android:textSize="35dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
@@ -30,6 +30,7 @@
             android:id="@+id/imageView4"
             android:src="@drawable/raju"
             android:scaleType="fitXY"
+            android:layout_marginTop="15dp"
             android:layout_below="@+id/textView10"
             android:layout_alignRight="@+id/textView11"
             android:layout_alignEnd="@+id/textView11"
@@ -41,13 +42,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text=" Padmabhushan Dr.B.V.Raju, the founder Chairman of SVES, was born in a humble agricultural family at Kumudavalli, a village near Bhimavaram.The great philanthropist and brilliant administrator in him made him become the doyen of Indian cement industries.
-            Dr. B.V. Raju became theChairman of cement Corporation of India. His perseverance and commitment, offered for the growth of industrial sector. After this significant success he focussed his attention and dedication towards educational institutions and also towards social causes. This culminated into the establishment of Dr. B. V. Raju Foundation and Sri Vishnu Educational Society. The society interest in education stems from a belief that knowledge is power. SVES established various institutions including Engineering, Pharmacy and Dental Sciences. His philanthropy had no boundaries. In recognition of his services to Education sector and society at large, he was awarded honorary Doctorate by Jawaharlal Nehru Technological University(JNTU), Hyderabad and was conferred the coveted Padmabhushan by the Government of India."
+                  Dr. B.V. Raju became theChairman of cement Corporation of India. His perseverance and commitment, offered for the growth of industrial sector. After this significant success he focussed his attention and dedication towards educational institutions and also towards social causes. This culminated into the establishment of Dr. B. V. Raju Foundation and Sri Vishnu Educational Society. The society interest in education stems from a belief that knowledge is power. SVES established various institutions including Engineering, Pharmacy and Dental Sciences. His philanthropy had no boundaries. In recognition of his services to Education sector and society at large, he was awarded honorary Doctorate by Jawaharlal Nehru Technological University(JNTU), Hyderabad and was conferred the coveted Padmabhushan by the Government of India."
             android:textAlignment="gravity"
            android:textIsSelectable="true"
-            android:textStyle="bold"
+            android:textStyle="normal"
+            android:layout_marginTop="15dp"
             android:id="@+id/textView11"
             android:layout_below="@+id/imageView4"
-            android:textColor="#000000"
+            android:textColor="#011c35"
             android:textSize="18dp" />
 
 

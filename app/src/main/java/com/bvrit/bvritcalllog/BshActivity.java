@@ -9,10 +9,13 @@ import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.bvrit.bvritcalllog.adapter.contactAdapter;
+import com.bvrit.bvritcalllog.model.contact;
 
 import java.util.ArrayList;
 
@@ -24,9 +27,12 @@ public class BshActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bsh);
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
-        contacts.add(new contact("DR. P. ANURADHA", "9989448015"));
+        contacts.add(new contact("DR. P. ANURADHA,HOD", "9989448015"));
         contacts.add(new contact("DR.J.MANOJ KUMAR", "9247164714"));
         contacts.add(new contact("AKULA SAMPATH KUMAR", "9963977802"));
         contacts.add(new contact("ALLURU RAMYA", "9640125266"));
@@ -51,6 +57,18 @@ public class BshActivity extends AppCompatActivity {
         contacts.add(new contact("T MOUNIKA", "9494877559"));
         contacts.add(new contact("T. ROJA RANI", "9490969499"));
         contacts.add(new contact("V.MADHAVI", "9494803119"));
+        contacts.add(new contact("G KRISHNAVENI", "9948628216"));
+        contacts.add(new contact("GANGARAPU SWATHI", "9676630355"));
+        contacts.add(new contact("J.R.K.S.M.LAKSHMI", "9848566118"));
+        contacts.add(new contact("K VENKATA NAGARAJU", "9705386543"));
+        contacts.add(new contact("KODURI GEETHA RANI", "9603088927"));
+        contacts.add(new contact("KUNADHA RAJU JAYASRI", "9492705324"));
+        contacts.add(new contact("MR.V.SURENDRA CHARY", "9848969492"));
+        contacts.add(new contact("P.KRANTHI KUMAR", "9949412740"));
+        contacts.add(new contact("PASUPULETI L V R SURYA MEGHANA", "9493461778"));
+        contacts.add(new contact("SADHULA VENKATESHWARLU", "9985549732"));
+        contacts.add(new contact("Y RENUKA", "9912571093"));
+
 
         //this code will be private to current activity.. means scope.. and those class nad layout can be reused..
         //if any change.. then only u have to create new.. otherwise no need
@@ -95,5 +113,15 @@ public class BshActivity extends AppCompatActivity {
             }
         });
 
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

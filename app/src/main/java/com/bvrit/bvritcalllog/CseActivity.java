@@ -9,10 +9,13 @@ import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.bvrit.bvritcalllog.adapter.contactAdapter;
+import com.bvrit.bvritcalllog.model.contact;
 
 import java.util.ArrayList;
 
@@ -24,9 +27,12 @@ public class CseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cse);
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
-        contacts.add(new contact("A VASANTHI, HOD", "8885510777"));
+        contacts.add(new contact("A VASANTHI,HOD", "8885510777"));
         contacts.add(new contact("A SALEEM", "7660000933"));
         contacts.add(new contact("AMARINDER KAUR", "9581461000"));
         contacts.add(new contact("B NAGAVENI", "9703218899"));
@@ -45,6 +51,7 @@ public class CseActivity extends AppCompatActivity {
         contacts.add(new contact("K YESU PADAM", "9704220395"));
         contacts.add(new contact("SAI RAMANI P", "9000502220"));
         contacts.add(new contact("SIRISHA G", "9494239931"));
+
 
         //this code will be private to current activity.. means scope.. and those class nad layout can be reused..
         //if any change.. then only u have to create new.. otherwise no need
@@ -89,5 +96,15 @@ public class CseActivity extends AppCompatActivity {
             }
         });
 
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

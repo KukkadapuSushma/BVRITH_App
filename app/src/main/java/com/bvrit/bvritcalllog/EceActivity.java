@@ -9,10 +9,13 @@ import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.bvrit.bvritcalllog.adapter.contactAdapter;
+import com.bvrit.bvritcalllog.model.contact;
 
 import java.util.ArrayList;
 
@@ -24,9 +27,12 @@ public class EceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ece);
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
-        contacts.add(new contact("J.NAGA VISHNU VARDHAN", "9848805545"));
+        contacts.add(new contact("J.NAGA VISHNU VARDHAN,HOD", "9848805545"));
         contacts.add(new contact("A RADHA", "9542500047"));
         contacts.add(new contact("ANIL KUMAR.Y", "8977032055"));
         contacts.add(new contact("ANWAR BHASHA PATTAN", "9440215230"));
@@ -44,6 +50,9 @@ public class EceActivity extends AppCompatActivity {
         contacts.add(new contact("SHYLAJA.R", "8179045635"));
         contacts.add(new contact("SIVA S SINTHURA", "8179751038"));
         contacts.add(new contact("V HINDUMATHI", "9866676690"));
+        contacts.add(new contact("M.H.N.V.PRASAD", "9949074336"));
+        contacts.add(new contact("SRINIVASA RAO", "9440031557"));
+
 
 
         //this code will be private to current activity.. means scope.. and those class nad layout can be reused..
@@ -89,5 +98,15 @@ public class EceActivity extends AppCompatActivity {
             }
         });
 
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

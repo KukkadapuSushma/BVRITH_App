@@ -4,96 +4,122 @@
     android:layout_height="fill_parent">
 
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/bg"
-
-        tools:context="com.bvrit.bvritcalllog.aboutfacilities">
+        android:orientation="vertical"
+        tools:context="com.bvrit.bvritcalllog.aboutBVRITH">
 
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentStart="true"
-            android:text="FACILITIES"
+            android:text=""
             android:textAlignment="center"
             android:textColor="#8a2a7f"
-            android:textSize="35dp"
+            android:textSize="35sp"
             android:textStyle="bold" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.58"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp">
 
-        <Button
-            android:id="@+id/Button07"
-            android:layout_width="160dip"
-            android:layout_height="160dip"
-            android:layout_marginTop="40dip"
-            android:backgroundTint="@color/colorPrimary"
-            android:shadowColor="@color/colorPrimaryLight"
-            android:text="TRANSPORT"
-            android:textSize="20dp"
-            android:textStyle="bold"></Button>
+            <Button
+                android:id="@+id/Button07"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
 
-        <Button
-            android:id="@+id/Button09"
-            android:layout_width="160dip"
-            android:layout_height="160dip"
-            android:layout_alignLeft="@+id/Button07"
-            android:layout_below="@+id/Button07"
-            android:backgroundTint="@color/colorPrimary"
-            android:text="CANTEEN"
-            android:textSize="20dp"
-            android:textStyle="bold"></Button>
+                android:background="@drawable/buttonshape"
+                android:text="TRANSPORT"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/Button011"
-            android:layout_width="160dip"
-            android:layout_height="160dip"
-            android:layout_alignLeft="@+id/Button09"
-            android:layout_below="@+id/Button09"
-            android:backgroundTint="@color/colorPrimary"
-            android:text="HOSTELS"
-            android:textSize="20dp"
-            android:textStyle="bold"></Button>
+            <Button
+                android:id="@+id/Button09"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                              android:text="LIBRARY"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/Button010"
-            android:layout_width="160dip"
-            android:layout_height="160dip"
-            android:layout_below="@+id/Button07"
-            android:layout_toRightOf="@+id/Button09"
-            android:backgroundTint="@color/colorPrimary"
-            android:text="WISE"
-            android:textSize="20dp"
-            android:textStyle="bold"></Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.62"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp">
 
-        <Button
-            android:id="@+id/Button012"
-            android:layout_width="160dip"
-            android:layout_height="160dip"
-            android:layout_below="@+id/Button010"
-            android:layout_toRightOf="@+id/Button011"
-            android:backgroundTint="@color/colorPrimary"
-            android:text="ATL"
-            android:textSize="20dp"
-            android:textStyle="bold"></Button>
+            <Button
+                android:id="@+id/Button11"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="HOSTELS"
 
-        <Button
-            android:id="@+id/Button08"
-            android:layout_width="160dip"
-            android:layout_height="160dip"
-            android:layout_alignTop="@+id/Button07"
-            android:layout_toRightOf="@+id/Button07"
-            android:backgroundTint="@color/colorPrimary"
-            android:text="INCUBATION CENTER"
-            android:textSize="20dp"
-            android:textStyle="bold"></Button>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/Button10"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="WISE"
 
-    </RelativeLayout>
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:layout_weight="0.51">
+
+            <Button
+                android:id="@+id/Button12"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="ATL"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Button08"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="CANTEEN"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
 </ViewFlipper>
