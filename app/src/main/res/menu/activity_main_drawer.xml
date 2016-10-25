@@ -25,6 +25,11 @@
                     android:id="@+id/content_main"
 
                     android:title="College info" />
+
+                <item
+                    android:id="@+id/customPanel"
+
+                    android:title="Bvrith creativity" />
     </group>
 
 

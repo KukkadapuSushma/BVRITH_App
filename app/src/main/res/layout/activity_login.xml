@@ -7,6 +7,7 @@
         android:layout_height="match_parent"
         android:descendantFocusability="beforeDescendants"
         android:focusableInTouchMode="true"
+
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
@@ -16,6 +17,7 @@
             style="?android:attr/progressBarStyleLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
             android:layout_gravity="center"
             android:layout_marginBottom="8dp"
             android:visibility="gone" />
@@ -32,8 +34,17 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/colorYellow"
-                android:src="@drawable/logo" />
+                android:background="#0e9f17"
+                android:src="@drawable/logo"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal" />
         </LinearLayout>
 
         <ScrollView
@@ -51,20 +62,24 @@
                 android:id="@+id/email_login_form"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+           >
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    >
 
                     <AutoCompleteTextView
                         android:id="@+id/email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/prompt_email"
+                        android:textColor="@color/colorPrimary"
                         android:textColorHint="@color/colorPrimary"
                         android:inputType="text"
-                        android:maxLines="1" />
+                        android:maxLines="1"
+                        android:text="User ID" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -77,12 +92,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/prompt_password"
-                        android:textColorHint="#212121"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimary"
                         android:imeActionId="@+id/login"
                         android:imeActionLabel="@string/action_sign_in_short"
                         android:imeOptions="actionUnspecified"
                         android:inputType="textPassword"
-                        android:maxLines="1" />
+                        android:maxLines="1"
+                        android:text="Password"
+                        android:password="false" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -96,7 +114,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginTop="56dp"
-                    android:background="@drawable/button_yellow"
+                    android:background="#0e9f17"
                     android:text="@string/action_sign_in"
                     android:textColor="@color/icons"
                     android:textStyle="bold" />

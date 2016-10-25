@@ -24,13 +24,14 @@
             android:textIsSelectable="true"
             android:textSize="35dp"
             android:textStyle="bold"
-            android:textColor="#8e055b" />
+            android:textColor="#295c7b" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView8"
             android:src="@drawable/sves"
+            android:layout_marginTop="15dp"
             android:layout_below="@+id/textView18"
             android:layout_centerHorizontal="true" />
 
@@ -41,11 +42,11 @@
             android:text="SRI VISHNU EDUCATIONAL SOCIETY has stood first among equals because of its quest and hard work to develop as an educational society which stands apart.  Our founder chairman Late. PADMA BHUSHAN Dr. B. V. RAJU, through his excellent vision and foresight established many educational institutions. These institutions are playing a vital role in moulding and shaping the future of thousands of students year after year. In addition, many organizations with a motive to serve society were also started. On one hand, he started the construction business involving supply of raw material and on the other hand he started society development programmes. To give shape to his ideas, he started the Dr. B.V. Raju Foundation to help the needy people. Dr.B.V. Raju Foundation has also distributed house sites to poor people."
             android:id="@+id/textView20"
             android:layout_below="@+id/imageView8"
-
+            android:layout_marginTop="15dp"
             android:textAlignment="gravity"
             android:textIsSelectable="true"
             android:textSize="18dp"
-            android:textColor="#000000"
+            android:textColor="#09223b"
             android:textStyle="normal" />
 
         <TextView

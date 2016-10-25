@@ -9,5 +9,32 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.bvrit.bvritcalllog.hostels"
     android:background="@drawable/bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HOSTELS"
+        android:textStyle="bold"
+        android:id="@+id/textView14"
+        android:textAlignment="center"
+        android:textColor="#295c7b"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BVRIT Hyderabad Hostel is a home away from home. It provides eco-friendly Hostel environment with round the clock security, nutritious and hygienic food. It is a place where personal care is taken. Facilities provided are land phone, Intercom, geysers, generator and many yet to come for the complete convenience of the students. Library timings are extended till 6 in the evening to provide the right academic ambience for students in search of excellence in their pursuits.  Nearly 300 students are accommodated in Saraswathi,Sarada and Seethamma hostels. The disciplined and caring hostel environment helps the students imbibe positive values which serve as a firm foundation for their life and career.  ."
+        android:id="@+id/textView19"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:textColor="#09223b"
+        android:textIsSelectable="true"
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

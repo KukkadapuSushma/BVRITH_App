@@ -14,22 +14,52 @@
         android:id="@+id/viewPageAndroid"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="204dp"
-        android:paddingTop="50dp"
-        android:src="@drawable/library"
-        android:id="@+id/imageView3"
-        android:scaleType="centerCrop"
-        android:layout_weight="0.24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LIBRARY"
+        android:textStyle="bold"
+        android:id="@+id/textView14"
+        android:textAlignment="center"
+        android:textColor="#295c7b"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="204dp"
         android:paddingTop="50dp"
-        android:layout_marginTop="200dp"
         android:src="@drawable/library1"
         android:scaleType="centerCrop"
-        android:layout_weight="0.24" />
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.24"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The library of BVRIT Hyderabad is a house of learning by itself.
+
+The efforts to increase the 1500 volumes, 88 titles of 2012 - 13 to the present 11153 volumes, 1277 titles contributes to the strength of this temple of knowledge. It has a seating capacity of 100 members and attractive, convenient space for study and research.
+
+The college library subscribes to National journals, 61 are technical and 13 magazines of them are general of which one is the in house journal “VISHNU ERA” i.e., from Sri Vishnu Educational Society.
+
+The staff and students can utilize the INTERNET facility for which 9 systems have been separately allotted in the Digital library. One system is allotted for printing."
+        android:id="@+id/textView19"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:textColor="#09223b"
+        android:layout_marginTop="15dp"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

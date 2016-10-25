@@ -96,6 +96,10 @@ public class MainActivity extends AppCompatActivity
             Uri uri = Uri.parse("http://www.bvrithyderabad.edu.in");
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
+        }else if (id == R.id.customPanel) {
+            Uri uri = Uri.parse("http://www.bvritnext.com/");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
         }
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);

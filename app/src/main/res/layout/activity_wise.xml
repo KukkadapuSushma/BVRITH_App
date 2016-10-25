@@ -14,22 +14,42 @@
         android:id="@+id/viewPageAndroid"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WISE"
+        android:textStyle="bold"
+        android:id="@+id/textView14"
+        android:textAlignment="center"
+        android:textColor="#295c7b"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="204dp"
         android:paddingTop="50dp"
+        android:layout_marginTop="15dp"
         android:src="@drawable/ts"
         android:id="@+id/imageView3"
         android:scaleType="centerCrop"
         android:layout_weight="0.24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BVRIT Hyderabad College of Engineering for Women collaborated with TalentSprint Company and started an exclusive program called ‘Women in Software Engineering (WISE)’ which is running along with the regular academic program. This program will impart deep technological skills and ensure that students become ready for a job with IT product companies by the end of their academic program."
+        android:textIsSelectable="true"
+        android:textStyle="normal"
+        android:id="@+id/textView11"
+        android:layout_marginTop="15dp"
+        android:textColor="#011c35"
+        android:textSize="18dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="204dp"
-        android:paddingTop="50dp"
-        android:layout_marginTop="220dp"
-        android:src="@drawable/ts1"
-        android:scaleType="centerCrop"
-        android:layout_weight="0.24" />
+
 </RelativeLayout>

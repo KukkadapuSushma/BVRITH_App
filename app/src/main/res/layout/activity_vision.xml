@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -21,15 +22,16 @@
             android:textIsSelectable="true"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textColor="#8e055b"
+            android:textColor="#295c7b"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="215dp"
             android:id="@+id/imageView11"
             android:src="@drawable/bsh3"
+            android:layout_marginTop="15dp"
             android:layout_below="@+id/textView27"
 
             android:scaleType="matrix" />
@@ -39,12 +41,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Strives to lay excellent basic foundation in the principles of Science and Humanities and to increase students’ knowledge, skills, and ability by revising and reviewing the basic concepts, which in turn help them to comprehend their core engineering subjects leading for their scintillating and brilliant career.    "
-            android:id="@+id/textView28"
-            android:layout_below="@+id/imageView11"
-            android:textColor="#000000"
-            android:textSize="15dp"
+            android:id="@+id/textView15"
+            android:layout_marginTop="285dp"
+
+            android:textColor="#011c35"
             android:textStyle="normal"
+            android:textSize="18dp"
+            android:textIsSelectable="true"
+            android:textAlignment="inherit"
             />
 
     </RelativeLayout>
-
