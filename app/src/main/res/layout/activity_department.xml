@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/bg"
-    tools:context="com.bvrit.bvritcalllog.DepartmentActivity"
+    tools:context="com.bvrit.bvritcall.DepartmentActivity"
     android:weightSum="1">
 
 
@@ -29,8 +29,8 @@
                     android:layout_marginTop="30dp"
                     android:layout_width="135dp"
                     android:layout_height="110dp"
-                    android:src="@drawable/ece"
-                  android:onClick="eceList"/>
+                    android:src="@drawable/admin"
+                  android:onClick="adminList"/>
 
                 <ImageView
                     android:layout_marginTop="30dp"
@@ -54,7 +54,7 @@
                     android:layout_height="110dp"
                     android:src="@drawable/it"
                     android:onClick="itList"
-                    />
+                    android:id="@+id/imageView9" />
 
                 <ImageView
                     android:layout_marginTop="350dp"
@@ -64,7 +64,17 @@
                     android:onClick="basic1List"
                     />
 
-          </RelativeLayout>
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/ece"
+                    android:onClick="eceList"
+                    android:id="@+id/imageView5"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignLeft="@+id/imageView9"
+                    android:layout_alignStart="@+id/imageView9" />
+
+            </RelativeLayout>
 
 
     </ScrollView>

@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.bvrit.bvritcalllog.wise"
+    tools:context="com.bvrit.bvritcall.wise"
     android:background="@drawable/bg">
 
     <android.support.v4.view.ViewPager
@@ -40,7 +40,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="BVRIT Hyderabad College of Engineering for Women collaborated with TalentSprint Company and started an exclusive program called ‘Women in Software Engineering (WISE)’ which is running along with the regular academic program. This program will impart deep technological skills and ensure that students become ready for a job with IT product companies by the end of their academic program."
+        android:text="BVRIT Hyderabad College of Engineering for Women collaborated with TalentSprint Company and started an exclusive program called ‘Women in Software Engineering (WISE)’ which is running along with the regular academic program. This program will impart deep technological skills and ensure that students become ready for a job with IT product companies by the end of their academic program.
+"
         android:textIsSelectable="true"
         android:textStyle="normal"
         android:id="@+id/textView11"

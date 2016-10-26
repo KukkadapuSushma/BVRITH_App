@@ -53,5 +53,19 @@ android:layout_weight="0.24" />
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The college is providing canteen facility to the students as well as teaching and non teaching staff of the college,it is capable of catering the demands of the students and can accomodate many persons at a time . It has  spacious and properly maintained room as well as kitchen, Generally the college provides it to any individual on contract basis after proper officials formalities."
+
+        android:layout_marginTop="15dp"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:textColor="#09223b"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>

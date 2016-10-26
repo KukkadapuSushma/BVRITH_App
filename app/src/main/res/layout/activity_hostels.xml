@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.bvrit.bvritcalllog.hostels"
+    tools:context="com.bvrit.bvritcall.hostels"
     android:background="@drawable/bg">
     <TextView
         android:layout_width="wrap_content"
@@ -15,6 +15,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="HOSTELS"
         android:textStyle="bold"
+        android:layout_marginTop="10dp"
         android:id="@+id/textView14"
         android:textAlignment="center"
         android:textColor="#295c7b"
@@ -23,6 +24,7 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -32,9 +34,9 @@
         android:textSize="18dp"
         android:textColor="#09223b"
         android:textIsSelectable="true"
-
-        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp" />
 
 </RelativeLayout>

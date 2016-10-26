@@ -9,7 +9,7 @@
         android:paddingRight="16dp"
         android:paddingTop="16dp"
         android:background="@drawable/bg"
-        tools:context="com.bvrit.bvritcalllog.sves"
+        tools:context="com.bvrit.bvritcall.sves"
         >
 
         <TextView

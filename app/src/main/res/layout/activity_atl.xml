@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.bvrit.bvritcalllog.atl"
+    tools:context="com.bvrit.bvritcall.atl"
     android:background="@drawable/bg">
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPageAndroid"
@@ -43,7 +43,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Assistive Technology Lab (ATL) at BVRIT Hyderabad College of Engineering for Women, Hyderabad, Telangana is the vision of Shri K. V. Vishnu Raju, the Chairman of Sri Vishnu Educational Society, to utilize the skills of every engineering department of the college for the development of Assistive Technology. It was set up in 2013 and operated closely with several national and international organizations.
-Assistive Technology Lab works for a very unique and a noble cause of designing projects by the students of BVRIT Hyderabad College of Engineering for Women to benefit the differently- abled. This is a small but definite step to mainstream people with disabilities into society. Professor Alan Rux , founder of the Assistive Technology Program at the University of Massachusetts, Lowell, USA, conducts classes regularly through video conferencing at BVRIT Hyderabad College of Engineering for Women and guides students in developing projects related to Assistive Technology."
+
+"
         android:id="@+id/textView19"
         android:textStyle="normal"
         android:textSize="18dp"
