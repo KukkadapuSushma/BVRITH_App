@@ -32,26 +32,26 @@ public class CseActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
-        contacts.add(new com.bvrit.bvritcall.model.contact("DR.K.V.N.SUNITHA, Principal", "9949402211"));
-        contacts.add(new contact("A VASANTHI,HOD", "8885510777"));
-        contacts.add(new contact("A SALEEM", "7660000933"));
-        contacts.add(new contact("AMARINDER KAUR", "9581461000"));
-        contacts.add(new contact("B NAGAVENI", "9703218899"));
-        contacts.add(new contact("BRAHMA NAIDU KAKARLA", "9912494400"));
-        contacts.add(new contact("K V SHARADA", "9494266156"));
-        contacts.add(new contact("KOENNI NARESH", "9989803310"));
-        contacts.add(new contact("P KAVITHA", "8790020724"));
-        contacts.add(new contact("POORNIMA K", "9100930829"));
-        contacts.add(new contact("RAJESH KANDAKATLA", "9505060105"));
-        contacts.add(new contact("SHANTI GUNNA", "9701507468"));
-        contacts.add(new contact("SWAPNA D", "9177322252"));
-        contacts.add(new contact("TILOTTAMA GOSWAMI", "9849561801"));
-        contacts.add(new contact("V NANI KALYAN", "9966626954"));
-        contacts.add(new contact("H SANTOSH KUMARI", "9912888716"));
-        contacts.add(new contact("K SASI PAVANI PRIYA", "9292552733"));
-        contacts.add(new contact("K YESU PADAM", "9704220395"));
-        contacts.add(new contact("SAI RAMANI P", "9000502220"));
-        contacts.add(new contact("SIRISHA G", "9494239931"));
+        contacts.add(new com.bvrit.bvritcall.model.contact("DR.K.V.N.Sunitha, Principal", "9949402211"));
+        contacts.add(new contact("Ms.A.Vasanthi,HOD", "8885510777"));
+        contacts.add(new contact("Mr.A.Saleem", "7660000933"));
+        contacts.add(new contact("Ms.Amarinder Kaur", "9581461000"));
+        contacts.add(new contact("Ms.B.Nagaveni", "9703218899"));
+        contacts.add(new contact("Mr.K.Brahma Naidu", "9912494400"));
+        contacts.add(new contact("Ms.K.V.Sharada", "9494266156"));
+        contacts.add(new contact("Mr.K.Naresh", "9989803310"));
+        contacts.add(new contact("Ms.P.Kavitha", "8790020724"));
+        contacts.add(new contact("Ms.K.Poornima", "9100930829"));
+        contacts.add(new contact("Mr.K.Rajesh", "9505060105"));
+        contacts.add(new contact("Ms.Shanti.G", "9701507468"));
+        contacts.add(new contact("Ms.Swapna.D", "9177322252"));
+        contacts.add(new contact("Ms.Tilottama Goswami", "9849561801"));
+        contacts.add(new contact("Mr.V.Nani Kalyan", "9966626954"));
+        contacts.add(new contact("Ms.H.Santosh Kumari", "9912888716"));
+        contacts.add(new contact("Ms.K.Sasi Pavani Priya", "9292552733"));
+        contacts.add(new contact("Mr.K.Yesu Padam", "9704220395"));
+        contacts.add(new contact("Ms.P.Sai Ramani", "9000502220"));
+        contacts.add(new contact("Ms.G.Sirisha", "9494239931"));
 
 
         //this code will be private to current activity.. means scope.. and those class nad layout can be reused..

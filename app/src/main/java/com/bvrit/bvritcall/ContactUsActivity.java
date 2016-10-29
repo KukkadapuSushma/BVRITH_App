@@ -29,13 +29,9 @@ public class ContactUsActivity extends AppCompatActivity {
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
         ArrayList<com.bvrit.bvritcall.model.contact> contacts = new ArrayList<>();
+        //add contact info of clg, address of clg.........................
 
-        contacts.add(new com.bvrit.bvritcall.model.contact("CH. JHANSI LAKSHMI", "9963341529"));
-        contacts.add(new com.bvrit.bvritcall.model.contact("G SURESH", "7095882695"));
-        contacts.add(new com.bvrit.bvritcall.model.contact("MEENAKSHI", "9490335004"));
-        contacts.add(new com.bvrit.bvritcall.model.contact("P MAHESH", "9000336040"));
-        contacts.add(new com.bvrit.bvritcall.model.contact("P VENKATESWARA RAO", "9704804201"));
-        contacts.add(new com.bvrit.bvritcall.model.contact("P VIJAYALAKSHMI", "9701001927"));
+        contacts.add(new com.bvrit.bvritcall.model.contact("Phone", "040 4241 7773"));
 
 
 

@@ -31,7 +31,7 @@ public class transport extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
-        contacts.add(new contact("Transport I/C:Ch.Sunil", "9676124655"));
+        contacts.add(new contact("Transport I/C : Ch.Sunil Kumar", "9676124655"));
         contacts.add(new contact("Route 1:Mr.Samson", "8187884887"));
         contacts.add(new contact("Route 2:Mr.Shiva Kumar", "8985558872"));
         contacts.add(new contact("Route 3:Satyanarayana", "8106439123"));
@@ -65,20 +65,28 @@ public class transport extends AppCompatActivity {
                         .setItems(new CharSequence[]{"Call", "SMS"}, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                Intent intent;
+                                final Intent intent;
                                 switch (i) {
                                     case 0:
                                         intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + current_Contact.getNumber()));
-                                        if (ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                                            //    ActivityCompat#requestPermissions
-                                            // here to request the missing permissions, and then overriding
-                                            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                                            //                                          int[] grantResults)
-                                            // to handle the case where the user grants the permission. See the documentation
-                                            // for ActivityCompat#requestPermissions for more details
-                                            return;
-                                        }
-                                        startActivity(intent);
+                                        runOnUiThread(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                if (ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                                                    ActivityCompat.requestPermissions(transport.this, new String[]{Manifest.permission.CALL_PHONE}, 0);
+                                                }
+                                                if (ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
+                                                    startActivity(intent);
+                                                }/* else {
+                                                    AlertDialog.Builder builder1 = new AlertDialog.Builder(view.getContext());
+                                                    builder1.setTitle("Permission Denied")
+                                                            .setMessage("App is not allowed to make calls. Please change permission in settings or select allow on permission dialog to make call.")
+                                                            .setPositiveButton("OK", null);
+                                                    builder1.show();//or leave...
+                                                }
+*/
+                                            }
+                                        });
                                         break;
                                     case 1:
                                         intent = new Intent(Intent.ACTION_VIEW, Uri.parse("sms:" + current_Contact.getNumber()));

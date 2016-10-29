@@ -32,20 +32,20 @@ public class ItActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
-        contacts.add(new contact("S.L.ARUNA RAO,HOD", "9553605898"));
-        contacts.add(new contact("NAVEEN KUMAR LASKARI", "9701050001"));
-        contacts.add(new contact("A. ARUNA JYOTHI", "9248326756"));
-        contacts.add(new contact("DEEPIKA SINGH", "7838178877"));
-        contacts.add(new contact("DIPALI PATTANAYAK", "9959437808"));
-        contacts.add(new contact("KODUMURI BHARGAV RAM", "9160329739"));
-        contacts.add(new contact("LAKSHMI. PRASANTHI.M", "9573417348"));
-        contacts.add(new contact("MUGADA SWATHI", "9581536127"));
-        contacts.add(new contact("P S LATHA KALYAMPUDI", "8985036362"));
-        contacts.add(new contact("S. RAMA DEVI", "9866511230"));
-        contacts.add(new contact("SANGEETHA DHARMAPURI", "9966581857"));
-        contacts.add(new contact("M. PARICHAY", "9000397776"));
-        contacts.add(new contact("SAILAJA DANTULURI", "9000949905"));
-        contacts.add(new contact("TALLURI PRAVEEN KUMAR", "9492425554"));
+        contacts.add(new contact("Ms.S.L.Aruna Rao,HOD", "9553605898"));
+        contacts.add(new contact("Mr.L.Naveen Kumar", "9701050001"));
+        contacts.add(new contact("Ms.A.Aruna Jyothi", "9248326756"));
+        contacts.add(new contact("Ms.Deepika Singh", "7838178877"));
+        contacts.add(new contact("Ms.Dipali Pattanayak", "9959437808"));
+        contacts.add(new contact("Mr.K.Bhargav Ram", "9160329739"));
+        contacts.add(new contact("Ms.Lakshmi Prasanthi.M", "9573417348"));
+        contacts.add(new contact("Ms.M.Swathi", "9581536127"));
+        contacts.add(new contact("Ms.P.S.Latha Kalyampudi", "8985036362"));
+        contacts.add(new contact("Ms.S.Rama Devi", "9866511230"));
+        contacts.add(new contact("Ms.Sangeetha.D", "9966581857"));
+        contacts.add(new contact("Mr.M.Parichay", "9000397776"));
+        contacts.add(new contact("Ms.Sailaja.D", "9000949905"));
+        contacts.add(new contact("Mr.T.Praveen Kumar", "9492425554"));
 
 
         //this code will be private to current activity.. means scope.. and those class nad layout can be reused..

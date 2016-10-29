@@ -29,10 +29,10 @@ public class activity_admin extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<com.bvrit.bvritcall.model.contact> contacts = new ArrayList<>();
-        contacts.add(new com.bvrit.bvritcall.model.contact("DR.K.V.N.SUNITHA, Principal", "9949402211"));
-        contacts.add(new com.bvrit.bvritcall.model.contact("JAGAPATHI REDDY.S, PlacementOfficer", "8106184848"));
+        contacts.add(new com.bvrit.bvritcall.model.contact("DR.K.V.N.Sunitha, Principal", "9949402211"));
+        contacts.add(new com.bvrit.bvritcall.model.contact("Mr.Jagapathi Reddy.S, PlacementOfficer", "8106184848"));
 
-        contacts.add(new com.bvrit.bvritcall.model.contact("RAMU MANTENA", "9949145656"));
+        contacts.add(new com.bvrit.bvritcall.model.contact("Mr.Ramu Mantena", "9949145656"));
 
 
         //this code will be private to current activity.. means scope.. and those class nad layout can be reused..
