@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bvrit.bvritcall.atl"
+    android:background="@drawable/bg">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPageAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="IoT Maker Space is a great initiative of Telangana Academy for Skill and Knowledge (TASK)and Hyderabad Software Enterprises Association (HYSEA), promoted to all Engineering colleges with an objective of looking into overall development of a student in terms of technical skills, presentation skills, innovative thinking, developing prototypes, and to make ready as future entrepreneurs. They conduct workshops, hackathons, lectures at college level and zone level. They invite mentors and jury from industry and academics to validate the ideas and for further guidance. Further, they arrange demonstrations with startup companies to share the experiences and also to promote the new innovations. Proud to say 'BVRIT HYDERABAD' is also one of the colleges registered for IoT Maker Space and is supported by'UPTEC IDEA Labs'as Industry mentor. A Specialized lab with equipment worthRs. 5 lakhswas also established."
+        android:id="@+id/textView19"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#212121"
+        android:textIsSelectable="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="IOT Maker Space"
+        android:textStyle="bold"
+        android:id="@+id/textView14"
+        android:textAlignment="center"
+        android:textColor="#295c7b"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -53,7 +53,7 @@ public class aboutfacilities extends AppCompatActivity {
         Button012.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(aboutfacilities.this,atl.class);
+                Intent i = new Intent(aboutfacilities.this,specialLabs.class);
                 startActivity(i);
             }
         });

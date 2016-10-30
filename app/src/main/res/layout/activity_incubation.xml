@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bvrit.bvritcall.atl"
+    android:background="@drawable/bg">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPageAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Incubation Center"
+        android:textStyle="bold"
+        android:id="@+id/textView14"
+        android:textAlignment="center"
+        android:textColor="#295c7b"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BVRIT Hyderabad College of Engineering for Women always aims high not only in providing the best academics to the students but also striving to fulfill the dreams and to increase the confidence levels in students willing to establish their own industry in future. Incubation Centre, established with the above intention came into existence from 21st December 2013 under the external guidance of Sri Subrata Dutta known as city scientist and also supported by internal faculty. Students are trained from the initial stages of developing an idea, design and study, selecting and purchase of components required on their own, prototyping, marketing etc."
+        android:layout_marginTop="70dp"
+        android:id="@+id/textView19"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:textColor="#09223b"
+        android:textIsSelectable="true" />
+
+
+</RelativeLayout>

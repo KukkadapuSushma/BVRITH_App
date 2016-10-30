@@ -20,4 +20,8 @@
         completions."
     </string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_special_labs">specialLabs</string>
+    <string name="title_activity_incubation">incubation</string>
+    <string name="title_activity_iot">iot</string>
+    <string name="title_activity_eclinic">eclinic</string>
 </resources>

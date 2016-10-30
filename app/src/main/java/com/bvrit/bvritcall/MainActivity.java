@@ -81,11 +81,11 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(this, DepartmentActivity.class);
             startActivity(i);
         } else if (id == R.id.custom) {
-            Intent i = new Intent(this, MapsActivity.class);
-            startActivity(i);
-          //  Uri uri = Uri.parse("https://www.google.co.in/maps/place/BVRIT+Hyderabad+College+of+Engineering+for+Women/@17.52596,78.3678963,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb8defd4fe2b81:0x64cfbb18950c8603!8m2!3d17.52596!4d78.370085");
-         //   Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-         //   startActivity(intent);
+           // Intent i = new Intent(this, MapsActivity.class);
+
+           Uri uri = Uri.parse("https://www.google.co.in/maps/place/BVRIT+Hyderabad+College+of+Engineering+for+Women/@17.52596,78.3678963,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb8defd4fe2b81:0x64cfbb18950c8603!8m2!3d17.52596!4d78.370085");
+           Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+           startActivity(intent);
         } else if (id == R.id.contentPanel) {
             Intent i = new Intent(this, aboutfacilities.class);
             startActivity(i);

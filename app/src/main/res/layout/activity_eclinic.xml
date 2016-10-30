@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bvrit.bvritcall.atl"
+    android:background="@drawable/bg">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPageAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BVRIT Hyderabad always aims in providing the best, conceptual and practical oriented skills to the students though various activities beyond the regular curriculum. One of the unique facility is 'Engineering Clinic'.
+
+                                                                              Under this students are trained by well experienced people to know how to test and repair various day to day appliances like Mobile, Mixer Grinder, Fan, Tube Light, Microwave Oven, Personal computer etc where engineering concepts are involved."
+        android:id="@+id/textView19"
+        android:textStyle="normal"
+        android:textSize="18dp"
+
+        android:layout_marginTop="50dp"
+        android:textColor="#212121"
+        android:textIsSelectable="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="E-Clinic"
+        android:textStyle="bold"
+        android:id="@+id/textView14"
+        android:textAlignment="center"
+        android:textColor="#295c7b"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

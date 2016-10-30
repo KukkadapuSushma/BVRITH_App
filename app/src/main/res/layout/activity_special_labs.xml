@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        tools:context="com.bvrit.bvritcall.aboutBVRITH">
+
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#8a2a7f"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.58"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp">
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="ATL"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Button02"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="Incubation"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.17"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp">
+
+            <Button
+                android:id="@+id/Button03"
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonshape"
+                android:text="IOT Maker Space"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Button04"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="0.82"
+                android:background="@drawable/buttonshape"
+                android:text="E Clinic"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ViewFlipper>

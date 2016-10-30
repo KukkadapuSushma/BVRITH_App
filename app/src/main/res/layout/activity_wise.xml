@@ -7,50 +7,65 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.bvrit.bvritcall.wise"
+    tools:context="com.bvrit.bvritcall.vision"
     android:background="@drawable/bg">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewPageAndroid"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="WISE"
+        android:id="@+id/textView27"
+        android:textSize="35dp"
+        android:textIsSelectable="true"
         android:textStyle="bold"
-        android:id="@+id/textView14"
         android:textAlignment="center"
         android:textColor="#295c7b"
-        android:textSize="35dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="204dp"
-        android:paddingTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="215dp"
+        android:id="@+id/imageView11"
+        android:src="@drawable/bsh3"
         android:layout_marginTop="15dp"
-        android:src="@drawable/ts"
-        android:id="@+id/imageView3"
-        android:scaleType="centerCrop"
-        android:layout_weight="0.24" />
+        android:layout_below="@+id/textView27"
+
+        android:scaleType="matrix" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="BVRIT Hyderabad College of Engineering for Women collaborated with TalentSprint Company and started an exclusive program called ‘Women in Software Engineering (WISE)’ which is running along with the regular academic program. This program will impart deep technological skills and ensure that students become ready for a job with IT product companies by the end of their academic program.
-"
-        android:textIsSelectable="true"
-        android:textStyle="normal"
-        android:id="@+id/textView11"
-        android:layout_marginTop="15dp"
-        android:textColor="#011c35"
-        android:textSize="18dp"
-        android:layout_below="@+id/imageView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:text="               WISE will have a set of lecture modules as well as project work which will be spread across the academic cycle over the four years in order to encourage the students to choose projects to align with the focus of their chosen branch of engineering - (Computer Science/IT) and (Electronics Communication Engineering/Electrical Engineering).There will be five lecture modules:
 
+                                                                           1.JSI : Just Solve It
+
+              2.EAD: Enterprise Application Development with Java
+
+              3.BPT: Development Best Practices and Tools
+
+              4.SNS: Social Networking Systems
+
+              5.BDC: Big Data and the Cloud
+
+              These lecture modules will be for total duration of 30 hours each and will be delivered during a semester with three sessions being delivered every week. In addition to this, there will also be three mini-projects embedded as part of the program spanning 50 hours each. The students will complete these projects during the academic breaks before second, third and fourth year of engineering.
+
+                 6.FOP: Foundations of Programming using Python (summer break between 1st and 2nd year)
+
+                   7.CFP: Contributing to global Free and Open-Source Software (FOSS) Projects (summer break between 2nd and 3rd year)
+
+                   8.MPW: Mini Project work with focus on Python/Java/C/C++ (summer break between3rd and final year)
+."
+        android:id="@+id/textView15"
+        android:layout_marginTop="285dp"
+
+        android:textColor="#011c35"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:textIsSelectable="true"
+        android:textAlignment="inherit"
+        />
 
 </RelativeLayout>

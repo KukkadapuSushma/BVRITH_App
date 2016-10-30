@@ -24,12 +24,12 @@
                 <item
                     android:id="@+id/content_main"
 
-                    android:title="College info" />
+                    android:title="College Website" />
 
                 <item
                     android:id="@+id/customPanel"
 
-                    android:title="Bvrith creativity" />
+                    android:title="Bvrith Blog" />
     </group>
 
 

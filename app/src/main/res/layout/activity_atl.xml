@@ -42,17 +42,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Assistive Technology Lab (ATL) at BVRIT Hyderabad College of Engineering for Women, Hyderabad, Telangana is the vision of Shri K. V. Vishnu Raju, the Chairman of Sri Vishnu Educational Society, to utilize the skills of every engineering department of the college for the development of Assistive Technology. It was set up in 2013 and operated closely with several national and international organizations.
+        android:text="Assistive Technology Lab (ATL) at BVRIT Hyderabad College of Engineering for Women, Hyderabad, Telangana is the vision of Shri K. V. Vishnu Raju, the Chairman of Sri Vishnu Educational Society, to utilize the skills of every engineering department of the college for the development of Assistive Technology. It was set up in 2013 and operated closely with several national and international organizations."
 
-"
         android:id="@+id/textView19"
         android:textStyle="normal"
         android:textSize="18dp"
         android:textColor="#09223b"
         android:textIsSelectable="true"
         android:layout_below="@+id/imageView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginTop="15dp" />
 
 
 </RelativeLayout>

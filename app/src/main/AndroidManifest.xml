@@ -17,12 +17,12 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
+        android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="BVRIT HYDERABAD"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:name="android.support.multidex.MultiDexApplication">
+        android:theme="@style/AppTheme">
         <activity
             android:name=".LoginActivity"
             android:label="BVRIT HYDERABAD | Login"
@@ -74,8 +74,20 @@
 
         <activity
             android:name=".MapsActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".specialLabs"
+            android:label="@string/title_activity_special_labs" />
+        <activity
+            android:name=".incubation"
+            android:label="@string/title_activity_incubation" />
+        <activity
+            android:name=".iot"
+            android:label="@string/title_activity_iot" />
+        <activity
+            android:name=".eclinic"
+            android:label="@string/title_activity_eclinic"></activity>
     </application>
 
 </manifest>

@@ -37,7 +37,6 @@
                 android:layout_height="80dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-
                 android:background="@drawable/buttonshape"
                 android:text="TRANSPORT"
                 android:textSize="20sp"
@@ -103,7 +102,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttonshape"
-                android:text="ATL"
+                android:text="Special Labs"
 
                 android:textSize="20sp"
                 android:textStyle="bold" />
