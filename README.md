@@ -1,2 +1,2 @@
 # BVRITCallLog
-College app - apk and
+College app - apk andro
