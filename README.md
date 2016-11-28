@@ -1,5 +1,4 @@
 # BVRITCallLog
-College app - apk android
 [![Google Play](https://conversations.im/images/en-play-badge.png)](https://play.google.com/store/apps/details?id=com.bvrit.bvritcall&hl=en)
 
 ## Features
