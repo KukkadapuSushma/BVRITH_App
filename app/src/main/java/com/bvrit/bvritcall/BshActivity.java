@@ -32,6 +32,7 @@ public class BshActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
+        contacts.add(new contact("Dr. P. Madhusudana Rao, DEAN", " "));
         contacts.add(new contact("DR. P. Anuradha,HOD", "9989448015"));
         contacts.add(new contact("DR.J.Manoj Kumar", "9247164714"));
         contacts.add(new contact("Mr.A.Sampath Kumar", "9963977802"));
