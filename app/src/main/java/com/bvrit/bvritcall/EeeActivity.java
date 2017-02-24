@@ -37,6 +37,9 @@ public class EeeActivity extends AppCompatActivity {
         contacts.add(new contact("Ms.K.Bhavya", "9573836511"));
         contacts.add(new contact("Mr.Guruswamy Revana", "9985271464"));
         contacts.add(new contact("Ms.K.Amritha", "9885511580"));
+        contacts.add(new contact("Mr.M.Sudheer Kumar", "9700669578"));
+        contacts.add(new contact("Mr.M.Rupesh", "9985755453"));
+        contacts.add(new contact("Ms.M.Kiranmai", "8184923182"));
         contacts.add(new contact("Mr.G.Sandeep", "8801199945"));
         contacts.add(new contact("Ms.N.Siva Gowri", "8985806346"));
         contacts.add(new contact("Mr.J.Srinivasa Rao", "9866849787"));

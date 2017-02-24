@@ -38,11 +38,15 @@ public class ItActivity extends AppCompatActivity {
         contacts.add(new contact("Ms.Deepika Singh", "7838178877"));
         contacts.add(new contact("Ms.Dipali Pattanayak", "9959437808"));
         contacts.add(new contact("Mr.K.Bhargav Ram", "9160329739"));
+        contacts.add(new contact("Mr.A.Rajashekar Reddy", "9959613761"));
+        contacts.add(new contact("Mr.Ch.Anil Kumar", "9912333353"));
+        contacts.add(new contact("Ms.N.Pujitha", "9948772777"));
         contacts.add(new contact("Ms.Lakshmi Prasanthi.M", "9573417348"));
         contacts.add(new contact("Ms.M.Swathi", "9581536127"));
         contacts.add(new contact("Ms.P.S.Latha Kalyampudi", "8985036362"));
         contacts.add(new contact("Ms.S.Rama Devi", "9866511230"));
         contacts.add(new contact("Ms.Sangeetha.D", "9966581857"));
+        contacts.add(new contact("Ms.K.Kavitha", "9491887407"));
         contacts.add(new contact("Mr.M.Parichay", "9000397776"));
         contacts.add(new contact("Ms.Sailaja.D", "9000949905"));
         contacts.add(new contact("Mr.T.Praveen Kumar", "9492425554"));

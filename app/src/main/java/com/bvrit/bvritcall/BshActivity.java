@@ -32,7 +32,7 @@ public class BshActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         ArrayList<contact> contacts = new ArrayList<>();
-        contacts.add(new contact("Dr. P. Madhusudana Rao, DEAN", " "));
+        contacts.add(new contact("Dr. P. Madhusudana Rao, DEAN", "9849551151"));
         contacts.add(new contact("DR. P. Anuradha,HOD", "9989448015"));
         contacts.add(new contact("DR.J.Manoj Kumar", "9247164714"));
         contacts.add(new contact("Mr.A.Sampath Kumar", "9963977802"));
@@ -40,6 +40,7 @@ public class BshActivity extends AppCompatActivity {
         contacts.add(new contact("Ms.B.Sreekala", "9493019971"));
         contacts.add(new contact("Ms.D.Chaya Kumari", "9666699505"));
         contacts.add(new contact("Ms.Deepika.G", "9177222460"));
+        contacts.add(new contact("DAEEMA TEHSINA", "9000644263"));
         contacts.add(new contact("DR.M.Venkanna", "9492210041"));
         contacts.add(new contact("DR.K.Kavitha", "9298801605"));
         contacts.add(new contact("Mr.Kasturi Sydaiah", "9440527274"));
@@ -54,7 +55,6 @@ public class BshActivity extends AppCompatActivity {
         contacts.add(new contact("Ms.V.Malathi", "9666350035"));
         contacts.add(new contact("Mr.NV.Samba Murthy", "9985778854"));
         contacts.add(new contact("Ms.P.Sharadha", "8790252407"));
-        contacts.add(new contact("Ms.B.Sunita Rao", "8501825377"));
         contacts.add(new contact("Ms.T.Mounika", "9494877559"));
         contacts.add(new contact("Ms.T.Roja Rani", "9490969499"));
         contacts.add(new contact("Ms.V.Madhavi", "9494803119"));

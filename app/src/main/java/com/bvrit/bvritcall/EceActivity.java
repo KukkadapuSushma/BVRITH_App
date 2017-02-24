@@ -37,7 +37,12 @@ public class EceActivity extends AppCompatActivity {
         contacts.add(new contact("Mr.Y.Anil Kumar", "8977032055"));
         contacts.add(new contact("Mr.Anwar Bhasha Pattan", "9440215230"));
         contacts.add(new contact("Ms.K.Brinda Devi", "9441368809"));
-        contacts.add(new contact("DR.K.Seethaiah", "9666837310"));
+        contacts.add(new contact("Mr.D.Venkata Siva Prasad", "8985596616"));
+        contacts.add(new contact("Mr.K.Seethaiah", "9666837310"));
+        contacts.add(new contact("Ms.G.Drakshayini", "8465854684"));
+        contacts.add(new contact("Ms.G.Ramalakshmi", "9177501926"));
+        contacts.add(new contact("Ms.K.Suneela", "9581206699"));
+        contacts.add(new contact("Mr.M.Venkatesh", "9030798001"));
         contacts.add(new contact("Mr.G.Siva Sankar Varma", "9642558871"));
         contacts.add(new contact("Ms.M.Praveena", "9492429500"));
         contacts.add(new contact("Mr.K.Mahesh Babu", "9246116325"));
